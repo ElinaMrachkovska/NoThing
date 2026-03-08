@@ -41,7 +41,7 @@
 
     @include on-desktop {
       &::before {
-        letter-spacing: 0px;
+        letter-spacing: 0;
         transition: 
           opacity 0.3s ease,
           letter-spacing 0.3s ease;
