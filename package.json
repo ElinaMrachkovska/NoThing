@@ -7,8 +7,8 @@
     "lint": "mate-scripts lint",
     "test:only": "mate-scripts test",
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --dist-dir dist --public-url /NoThing/",
-    "deploy": "gh-pages -d dist",
+    "build": "parcel build src/index.html --dist-dir dist --public-url ./",
+    "deploy": "npm run build && npx gh-pages -d dist",
     "update": "mate-scripts update",
     "postinstall": "npm run update",
     "test": "npm run lint && npm run test:only"
