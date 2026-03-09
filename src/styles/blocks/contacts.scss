@@ -89,4 +89,14 @@
       background-color: #111;
     }
   }
+  &__input-error {
+    border-color: red !important;
+  }
+
+  &__error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+    display: block;
+  }
 }
